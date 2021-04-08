@@ -1,0 +1,113 @@
+:root{
+    --primary-font-family: Architects Daughter;
+    --secondary-font-family: Roboto;
+
+}
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+
+p{
+    color: white;
+}
+
+h2,h3,h1{
+   
+    text-transform: uppercase;
+}
+h1{
+    font-family: var(--primary-font-family);
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    font-size: 2rem;
+}
+
+header,footer{
+    background-color: rgba(0, 0, 153,1);
+    text-align: center;
+    height: 5rem;
+    padding: 2.5rem;
+    font-family: var(--primary-font-family);
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    text-align: center;
+    min-height: 10rem;
+
+}
+.intro > p{
+    color: black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2rem auto;
+     font-family: var(--secondary-font-family);
+}
+
+.blog-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 153,1);
+    margin: 3rem auto;
+    padding: 2rem 1rem;
+    min-height: 500px;
+    
+    
+    
+}
+
+.blog-article{
+    display: flex;
+    
+}
+
+.blog-article > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+
+}
+
+.blog-article > img{
+    height: 200px;
+    
+}
+.image-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.image-logo img{
+ height: 80px;
+}
+
+.blue-jazz h2, .blue-jazz h3{
+    color:rgba(255, 51, 0,1);
+}
+
+.jazz-night h2, .jazz-night h3{
+    color: yellow;
+}
+
+footer{
+    height: 5rem;
+    padding-top: 2.5rem;
+}
